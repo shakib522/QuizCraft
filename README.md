@@ -7,9 +7,17 @@ This project is a microservices-based quiz application comprising four main comp
 The application consists of the following microservices:
 
 1. **Quiz Service**: Manages quizzes, including creating, updating, retrieving, and deleting quizzes.
+   - Repository link: https://github.com/shakib522/QuizService
 2. **Question Service**: Handles the management of questions related to quizzes, including CRUD operations on questions.Calculate Score.
+   - Repository link: https://github.com/shakib522/Question-Service
 3. **API Gateway**: Serves as the single entry point for all client requests, routing them to the appropriate microservices.
+   - Repository link: https://github.com/shakib522/Api-Getway
 4. **Service Registry (Eureka Server)**: Acts as a service discovery mechanism, allowing microservices to register themselves and discover other services within the system.
+   - Repository link: https://github.com/shakib522/Service-Registry
+
+
+## Postman API Collection
+[Quiz Craft.postman_collection.json](https://github.com/user-attachments/files/16823586/Quiz.Craft.postman_collection.json)
 
 ## Technologies Used
 
